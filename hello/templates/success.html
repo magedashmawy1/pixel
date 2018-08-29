@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load staticfiles %}
+<head>
+    <meta charset="UTF-8">
+    <title>sucsess</title>
+</head>
+<body style="background: #2C3E50">
+    <div style="text-align: center">
+        <img src="{% static 'img/logo.png' %}">
+          <h1 style="color: wheat">THANK YOU! </h1>
+          <h3 style="color: wheat; font-family: 'Times New Roman'">your message has been sent successfully</h3>
+            <a href="{% url 'home' %}" style="color: white">back to home</a>
+    </div>
+
+</body>
+</html>

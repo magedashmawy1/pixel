@@ -1,0 +1,372 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% load staticfiles %}
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ALMEAWEL Construction</title>
+  <meta name="description" content="ALMEAWEL Construction">
+  <meta name="keywords" content="   أكرم المغربل , ازالة وهدم , مقاولات, تشطيبات, مدينة 6 اكتوبر, مقاول, المقاول, اكرم الحسيني ">
+  <!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">﻿ -->
+  <link rel="icon" href="{% static 'img/icon.png' %}">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Candal">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="{% static 'font-awesome.min.css'  %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'bootstrap.min.css'  %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'slide.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+  <!--banner-->
+  <section id="banner" class="banner">
+    <div>
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="col-md-12">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      </button>
+              <a class="navbar-brand" href="{% url 'home' %}"><img src="{% static 'img/logoooo.png' %}" class="img-responsive" style="width: 20px; margin-top: -16px;"></a>
+            </div>
+            <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#banner" style="color:black;">Home</a></li>
+                <li class=""><a href="#service" style="color:black;">Our Services</a></li>
+                <li class=""><a href="#about"style="color:black;">Our Work</a></li>
+                <li class=""><a href="#testimonial"style="color:black;">About Us</a></li>
+                <li class=""><a href="#contact"style="color:black;">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row">
+          <div class="banner-info">
+            <div class="banner-logo text-center">
+              <img src="{% static 'img/ll.png' %}" class="img-responsive">
+            </div>
+            <div class="banner-text text-center">
+              <h2 class="white"  style="font-family: FS_Bold";></h2><br>
+              <a href="#contact" class="btn btn-appoint">Contact Us</a>
+            </div>
+            <!-- <div class="overlay-detail text-center">
+              <a href="#service"><i class="fa fa-angle-down"></i></a>
+              -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ banner-->
+  <!--service-->
+    <section id="service" class="section-padding">
+    <div class="container">
+      <div class="row"> 
+        <div class="col-md-12">
+          <h2 class="ser-title">Our Services</h2>
+          <hr class="botm-line">
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <div class="service-info">
+            <div class="icon">
+              <i><img src="{% static 'img/trmem.png' %}"></i>
+            </div>
+            <div class="icon-info">
+              <h4 style="font-family: 'GE SS Two Bold';font-size: large;">صيانة المنشاءات وترميم وتدعيم</h4>
+              <p></p>
+            </div>
+            <div class="icon">
+              <i><img src="{% static 'img/hdm.png' %}"></i>
+            </div>
+              <div class="icon-info">
+              <h4 style="font-family: 'GE SS Two Bold';font-size: large;">إزالة وهدم</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <div class="service-info">
+            <div class="icon">
+              <i><img src="{% static 'img/tsh.png' %}"></i>
+            </div>
+            <div class="icon-info">
+              <h4 style="font-family: 'GE SS Two Bold';font-size: large;">تشطيبات</h4>
+              <p></p>
+            </div>
+            <div class="icon">
+              <i><img src="{% static 'img/contr.png' %}"></i>
+            </div>
+              <div class="icon-info">
+              <h4 style="font-family: 'GE SS Two Bold';font-size: large;">تراخيص بناء</h4>
+            </div>
+          </div>
+        </div>
+           <div class="col-md-4 col-sm-4">
+          <div class="service-info">
+            <div class="icon">
+              <i><img src="{% static 'img/ensh.png' %}"></i>
+            </div>
+            <div class="icon-info">
+              <h4 style="font-family: 'GE SS Two Bold';font-size: large;">إنشـــاءات</h4>
+            </div>
+              <div class="icon">
+              <i><img src="{% static 'img/tasmeeem.jpg' %}"></i>
+            </div>
+              <div class="icon-info">
+              <h4 style="font-family: 'GE SS Two Bold';font-size: large;">تصميم معماري وانشائي</h4>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  <!--/ service-->
+  <!--cta-->
+  <section id="cta-1" class="section-padding">
+    <div class="container">
+      
+           <div id="slide">
+  <div class="slideshow-container">
+    <div class="mySlides fade"> <img src="{% static 'img/im2.jpg' %}" style="width:100%"> </div>
+    <div class="mySlides fade"> <img src="{% static 'img/im1.jpg' %}" style="width:100%"> </div>
+    <div class="mySlides fade"> <img src="{% static 'img/im3.jpg' %}" style="width:100%"> </div>
+    <div class="mySlides fade"> <img src="{% static 'img/im4.jpg' %}" style="width:100%"> </div>
+    
+  <br>
+  <div style="text-align:center"> 
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+   </div>
+    </div>
+      </div>
+  </section>
+  <!--cta-->
+  <!--about-->
+  <!--/ about-->
+  <!--doctor team-->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="ser-title">Our Work</h2>
+          <hr class="botm-line">
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-6">
+          <div class="thumbnail">
+            <img src="{% static '' %}img/d1.jpg" alt="..." class="team-img">
+              <br><br>
+            <img src="{% static '' %}img/d5.jpg" alt="..." class="team-img">
+              <br><br>
+            <img src="{% static '' %}img/d6.jpg" alt="..." class="team-img">
+              <br><br>
+            <img src="{% static '' %}img/d13.jpg" alt="..." class="team-img">
+
+            <div class="caption">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-6">
+          <div class="thumbnail">
+            <img src="{% static '' %}img/d2.jpg" alt="..." class="team-img">
+            <br><br>
+            <img src="{% static '' %}img/d7.jpg" alt="..." class="team-img">
+            <br><br>
+            <img src="{% static '' %}img/d8.jpg" alt="..." class="team-img">
+            <br><br>
+            <img src="{% static '' %}img/d15.jpg" alt="..." class="team-img">
+            <div class="caption">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-6">
+          <div class="thumbnail">
+            <img src="{% static '' %}img/d3.jpg" alt="..." class="team-img">
+            <br><br>
+            <img src="{% static '' %}img/d11.jpg" alt="..." class="team-img">
+            <br><br>
+            <img src="{% static '' %}img/d12.jpg" alt="..." class="team-img">
+             <br><br>
+            <img src="{% static '' %}img/d14.jpg" alt="..." class="team-img">
+            <div class="caption">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-6">
+          <div class="thumbnail">
+            <img src="{% static '' %}img/d4.jpg" alt="..." class="team-img">
+            <br><br>
+            <img src="{% static '' %}img/d9.jpg" alt="..." class="team-img">
+            <br><br>
+            <img src="{% static '' %}img/d10.jpg" alt="..." class="team-img">
+            <br><br>
+            <img src="{% static '' %}img/d16.jpg" alt="..." class="team-img">
+            <div class="caption">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ doctor team-->
+  <!--testimonial-->
+  <section id="testimonial" class="section-padding">
+  <!--/ testimonial-->
+  <!--cta 2-->
+  <section id="cta-2" class="section-padding">
+    <div class="container">
+      <div class=" row">
+        <div class="col-md-2"></div>
+        <div class="text-right-md col-md-4 col-sm-4">
+          <h2 class="section-title white lg-line">« A few words<br> about us »</h2>
+        </div>
+        <div class="col-md-4 col-sm-5">
+         <span style="color:orange; font-size: x-large; font-family: 'GE SS Two Bold';">المقــاول    </span>  لخدمات البناء المتكاملة: نحن مهندسون متخصصون نحرص على تركيز اهتمامنا على كل تفاصيل المشروع من فكرة المشروع إلى الانتهاء من تنفيذه , فقد قمنا بتطوير مجموعة واسعة من خدمات البناء، لدينا ضمان على جميع اعمالنا وبذلك نضمن للعميل جودة مثالية
+          <p class="text-left text-primary"><i>م / أكــرم المغربل —</i></p>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+    </div>
+      </section>
+      </section>
+  <!--cta-->
+  <!--contact-->
+  <section id="contact" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="ser-title">Contact us</h2>
+          <hr class="botm-line">
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <h3>Contact Info</h3>
+          <div class="space"></div>
+          <i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>
+            <p style="font-family:AL-Mohanad Bold; color:black;">العنوان: 432 ل - حدائق الأهرام - الهرم - الجيزة</p>
+          <div class="space"></div>
+          <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i> <p style="font-family:arial; color:black;">almokawel.construction@gmail.com</p>
+          <div class="space"></div>
+            <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i><p style="font-family:arial; color:black;">01004220959 - 01112414149</p>
+        </div>
+        <div class="col-md-8 col-sm-8 marb20">
+          <div class="contact-info">
+            <h3 class="cnt-ttl">Having Any Query! Or Book an appointment</h3>
+            <div class="space"></div>
+           <!-- <div id="sendmessage">Your message has been sent. Thank you!</div>-->
+            <div id="errormessage"></div>
+            <form action="" method="post" class="contactForm">
+                {% csrf_token %}
+                <div class="form-group" >
+                {{ form.as_p }}
+
+                <button type="submit" class="btn-form">Send Message</button>
+
+            </form>
+
+
+                <!--
+              <div class="form-group">
+                <input type="text" name="name" class="form-control br-radius-zero" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control br-radius-zero" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validation"></div>
+              </div>
+                <div class="form-group">
+                <input type="number" class="form-control br-radius-zero" name="phone" id="email" placeholder="Your Mobile Numbers" data-rule="minlen:4" data-msg="Please enter a valid Mobile Number" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control br-radius-zero" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control br-radius-zero" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <div class="validation"></div>
+              </div>
+              -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ contact-->
+  <!--footer-->
+  <footer id="footer">
+    <div class="top-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-4 marb20">
+            <div class="ftr-tle">
+              <h4 class="white no-padding">About Us</h4>
+            </div>
+            <div class="info-sec">
+              <p> يسرنا أن نضع أمام سيادتكم خبرتنا في هذا المجال والتي تتمثل في الفكر المتواصل المتجدد المبني على الدراسة والتخصص </p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 marb20">
+            <div class="ftr-tle">
+              <h4 class="white no-padding">Quick Links</h4>
+            </div>
+            <div class="info-sec">
+              <ul class="quick-info">
+                <li><a href="#"><i class="fa fa-circle"></i>Home</a></li>
+                <li><a href="#service"><i class="fa fa-circle"></i>Services</a></li>
+                <li><a href="#contact"><i class="fa fa-circle"></i>Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 marb20">
+            <div class="ftr-tle">
+              <h4 class="white no-padding">Follow us on Facebook</h4>
+            </div>
+            <div class="info-sec">
+              <ul class="social-icon"><a style="color: white" target="_blank" href="https://www.facebook.com/almokawelco">
+                    <li class="bglight-blue">
+                    <i class="fa fa-facebook"></i>
+                     </li>
+              </a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-line">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            
+            <div>
+              .. <a href="https://www.facebook.com/captainmagedashmawy"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--/ footer-->
+  <script src="{% static 'slide.js' %}"></script>
+  <script src="{% static 'jquery.min.js' %}"></script>
+  <script src="{% static 'jquery.easing.min.js' %}"></script>
+  <script src="{% static 'bootstrap.min.js' %}"></script>
+  <script src="{% static 'custom.js' %}"></script>
+ <!-- <script src="contactform/contactform.js"></script> -->
+    
+
+
+</body>
+
+</html>
